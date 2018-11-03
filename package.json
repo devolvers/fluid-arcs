@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "c4a061a2-2c81-4e48-aaa8-2b08defa56e9",
+    "appType": "clockface",
+    "appDisplayName": "Fluid Arc",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Fluid Arc"
+      }
+    }
+  }
+}
