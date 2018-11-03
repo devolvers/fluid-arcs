@@ -1,0 +1,70 @@
+.baseSettings {
+  fill: fb-white;
+  text-length: 32;
+  text-anchor: middle;
+  font-family: Seville-Book-Condensed;
+}
+
+.smallestFont {
+  font-size: 15;
+}
+
+.smallFont {
+  font-size: 28;
+}
+
+.clock-display {
+  font-family: Seville-Book-Condensed;
+  text-anchor: middle;
+}
+
+#dataIcon {
+  fill: white;
+}
+
+#steps #dataCount {
+  font-size: 32;
+  }
+
+.text {
+  font-family: Seville-Book-Condensed;
+  fill: fb-white;
+}
+
+.clock-hours {
+  font-size: 110;
+  text-anchor: end;
+  text-align: right;
+  fill: fb-white;
+  opacity: 0.6;
+}
+
+.clock-minutes {
+  font-size: 110;
+  text-anchor: start;
+  text-align: left;
+  fill: fb-white;
+}
+
+.clock-seconds {
+  font-size: 40;
+  text-length: 20;
+  text-anchor: start;
+  fill: fb-light-gray;
+}
+
+.date {
+  font-size: 25;
+  text-length: 15;
+  text-anchor: middle;
+  fill: fb-white;
+}
+
+#batteryLevel {
+  x: 10;
+  y: 34;
+  font-size: 20;
+  font-family: SevilleSharp-Book;
+  text-anchor: start;
+  fill: fb-light-gray;
+}
